@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: cloud-gateway-jwt-security-service
+
+  cloud:
+    config:
+      uri: http://localhost:8888
+
+server:
+  port: 8997
